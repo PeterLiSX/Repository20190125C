@@ -9,7 +9,7 @@ namespace BaiduAPITool
 {
     public class AesUtil
     {
-        private static byte[] iv = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+        private static byte[] iv = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };//
 
         public static string AESEncrypt(string plainText)
         {
